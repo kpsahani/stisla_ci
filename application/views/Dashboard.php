@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $this->load->view('dist_copy/_partials/header');
 ?>
       <!-- Main Content -->
-      <div class="main-content">
+      <div class="main-content"> 
         <section class="section">
           <div class="section-header">
             <h1>Blank Page</h1>
@@ -13,4 +13,4 @@ $this->load->view('dist_copy/_partials/header');
           </div>
         </section>
       </div>
-<?php $this->load->view('dist/_partials/footer'); ?>
+<?php $this->load->view('dist_copy/_partials/footer'); ?>

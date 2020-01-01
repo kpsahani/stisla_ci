@@ -45,6 +45,13 @@ class Dist extends CI_Controller {
 		$this->load->view('dist/blank', $data);
 	}
 
+	public function news() {
+		$data = array(
+			'title' => "News"
+		);
+		$this->load->view('dist/news', $data);
+	}
+
 	public function bootstrap_alert() {
 		$data = array(
 			'title' => "Bootstrap Components &rsaquo; Alert"
